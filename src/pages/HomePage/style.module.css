@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+.pageContainer {
+    display: flex;
+    justify-content: center; /* Центрування всього вмісту */
+    padding: 20px; /* Внутрішні відступи для сторінки */
+    font-family: "Chocolate Classical Sans", sans-serif;
+}
+
+.contentContainer {
+    display: flex; /* Горизонтальне розташування елементів */
+    align-items: flex-start; /* Вирівнювання по верху */
+}
+
+.imghome {
+    display: inline-block;
+    width: 600px;
+    height: 750px;
+    border-radius: 15px;
+    margin-left: 20px; /* Відступ між текстовим контейнером і зображенням */
+}
+
+.backgroundContainer {
+    display: flex;
+    align-items: center; /* Вертикальне вирівнювання тексту всередині контейнера */
+    background-color: #cad7cf; /* Фон контейнера */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Додає тінь для ефекту плавності */
+}
+
+.textcontainer {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 80px;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.productLinks {
+    margin-top: 20px;
+    display: flex;
+    gap: 22px;
+}
+
+.productLink {
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    width: 300px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.productLinkOne {
+    background-image: linear-gradient(
+        rgba(100, 100, 100, 0.648), 
+        rgba(51, 51, 51, 0.7)), 
+        url('../../../public/bag_1.jpg');
+}
+
+.productLinkTwo {
+    background-image: linear-gradient(
+        rgba(100, 100, 100, 0.648), 
+        rgba(51, 51, 51, 0.7)), 
+        url('../../../public/bag_2.jpg');
+}
+
+.productLinkOne:hover {
+    background-image: linear-gradient(
+        rgba(46, 46, 46, 0.648), 
+        rgba(28, 28, 28, 0.7)), 
+        url('../../../public/bag_1.jpg');
+}
+
+.productLinkTwo:hover {
+    background-image: linear-gradient(
+        rgba(46, 46, 46, 0.648), 
+        rgba(28, 28, 28, 0.7)), 
+        url('../../../public/bag_2.jpg');
+}
+
+
+.productImage {
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 380px;
+}

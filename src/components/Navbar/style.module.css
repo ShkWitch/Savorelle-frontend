@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 90px;
+  background-color: #143421;
+  color: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.nav .left {
+  display: flex;
+  align-items: center;
+}
+
+.nav .left .logo {
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav .left .menu {
+  display: flex;
+  margin-left: 40px;
+}
+
+.nav .left .menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 3px 16px;
+  display: block;
+  font-size: 18px;
+}
+
+.nav .left .menu li a:hover {
+  color: #697b71;
+}
+
+.nav .right a:first-child {
+  margin-right: 5px;
+}
+
+.authMenu {
+  display: flex;
+  gap: 15px;
+}
+
+.authLink:hover {
+  color: #697b71;
+}
